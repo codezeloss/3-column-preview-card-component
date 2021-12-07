@@ -1,0 +1,139 @@
+/*
+      SPACE SIZE SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 /
+      80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 /
+      36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+/* {} */
+/*
+      MAIN COLOR: #e67e22;
+      GREY COLOR: #444;
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Lexend Deca", sans-serif; */
+}
+
+#container {
+  /* background-color: violet; */
+  /* background-image: ; */
+  margin: 0 0;
+  width: auto;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 800;
+  font-size: 74px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
+.paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.6;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.card-container {
+  font-family: "Lexend Deca", sans-serif;
+  /* margin: 80px auto; */
+  background-color: blueviolet;
+  width: 1440px;
+  height: 800px;
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 480px 480px 480px;
+  grid-template-rows: 800px 800px 800px;
+}
+
+.first-card {
+  background-color: hsl(31, 77%, 52%);
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.second-card {
+  background-color: hsl(184, 100%, 22%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.third-card {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-card a {
+  color: hsl(31, 77%, 52%);
+  font-weight: 200;
+}
+.second-card a {
+  color: hsl(184, 100%, 22%);
+  font-weight: 200;
+}
+.third-card a {
+  color: hsl(179, 100%, 13%);
+  font-weight: 200;
+}
+
+.icons {
+  margin-right: 64px;
+  margin-left: 64px;
+  margin-top: 80px;
+  margin-bottom: 26px;
+}
+
+/* .btn01 {
+} */
+
+a:link,
+a:visited {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 16px 32px;
+  margin-left: 64px;
+  margin-right: auto;
+}
+
+a {
+  border-radius: 30px;
+  margin-top: 100px;
+}
